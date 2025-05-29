@@ -40,16 +40,12 @@ public class Receiver{
         return finalMssgDcd;
     }
 
-
     public void receive_signal(Message message){
-
 
         String tempMssg = "";
         for(String a : morse){
             listMorse.add(a);
         }
-
-
 
         for(String a: message.getMssg()){
             tempMssg += alfabeto.charAt(listMorse.indexOf(a));
