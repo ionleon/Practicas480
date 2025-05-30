@@ -30,6 +30,8 @@ public class BatteryRelay extends Relay{
             if(eleccion){
                 System.out.println("Se ha recargado la batería.");
                 recargarBateria();
+                super.amplify_signal(message);
+
             }else{
                 System.out.println("No se ha recargado la batería, el mensaje no se puede transmitir.");
                 System.exit(0);

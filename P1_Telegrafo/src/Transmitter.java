@@ -49,12 +49,9 @@ public class Transmitter{
 
         message.setMssg(encdMssg);
 
-        /*
-        for(String a : encdMssg ){
-            System.out.printf(a);
-        }
+        message.setSendEcrypted(true);
 
-        return(message); */
+
 
     }
 

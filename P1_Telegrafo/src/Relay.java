@@ -25,7 +25,14 @@ public class Relay {
             System.out.println("El relé está apagado.");
             System.exit(0);
         }
-        message.setSignal(100);
+       if(!message.getSendCable()){
+           System.err.println("No hay ningún cable conectado al relé.");
+           System.exit(0);
+       }
+
+       message.setSignal(100);
+       message.setSendCable(false);
+
     }
 
 

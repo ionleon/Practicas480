@@ -19,9 +19,7 @@ public class Receiver{
 
     public Receiver(){}
 
-    /*public Receiver(String finalMssgDcd){
-        this.finalMssgDcd.equals(finalMssgDcd);
-    }*/
+
     
     public void setFinalMssgEncd(ArrayList<String> finalMssgEncd){
         this.finalMssgEncd.clear();
@@ -41,6 +39,11 @@ public class Receiver{
     }
 
     public void receive_signal(Message message){
+
+        if(!message.getSendCable()){
+            System.err.println("No hay ningún cable conectado al receptor.");
+            System.exit(0);
+        }
 
         String tempMssg = "";
         for(String a : morse){

@@ -6,6 +6,24 @@ public class Message{
     private ArrayList<String> mssg = new ArrayList<String>();
     private int signal;
     private String regex = "^[a-zA-Z ]*$";
+    private boolean sendEcrypted;
+    private boolean sendCable;
+
+    public void setSendEcrypted(boolean sendEcrypted){
+        this.sendEcrypted = sendEcrypted;
+    }
+
+    public boolean getSendEcryted(){
+        return sendEcrypted;
+    }
+
+    public void setSendCable(boolean sendCable) {
+        this.sendCable = sendCable;
+    }
+
+    public boolean getSendCable(){
+        return sendCable;
+    }
 
     public void setInitialMessage(String newMssg){
         if(!mssg.isEmpty()){
@@ -48,22 +66,15 @@ public class Message{
 
     public Message(String message, int signal){
 
-        if(!mssg.isEmpty()){
-            this.mssg.clear();
-        }
+        setInitialMessage(message);
 
-        if(!message.matches(regex)){
-            System.out.println("El mensaje debe ser solo palabras separadas por espacios.");
-            System.exit(0);
-        }
+        setSignal(signal);
 
-        String[] tempMssg = message.split("");
+        setSendEcrypted(false);
 
-        for(String a : tempMssg){
-            this.mssg.add(a);
-        }
+        setSendCable(false);
 
-        this.signal = signal;
+
 
     }
 
