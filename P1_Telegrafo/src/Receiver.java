@@ -45,6 +45,11 @@ public class Receiver{
             System.exit(0);
         }
 
+        if(!message.getSendEcrypted()){
+            System.err.println("No se puede transmitir el mensaje sin un transmisor.");
+            System.exit(0);
+        }
+
         String tempMssg = "";
         for(String a : morse){
             listMorse.add(a);

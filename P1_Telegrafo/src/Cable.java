@@ -72,10 +72,7 @@ public class Cable{
 
         }
 
-        if(!message.getSendEcryted()){
-            System.err.println("No se puede transmitir el mensaje sin un transmisor.");
-            System.exit(0);
-        }
+
 
         int perdida_total = (int) longitud*perdida_km;
         int senal = message.getSignal() - perdida_total;

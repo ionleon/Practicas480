@@ -13,7 +13,7 @@ public class Message{
         this.sendEcrypted = sendEcrypted;
     }
 
-    public boolean getSendEcryted(){
+    public boolean getSendEcrypted(){
         return sendEcrypted;
     }
 
