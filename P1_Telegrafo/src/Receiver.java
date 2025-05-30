@@ -64,5 +64,6 @@ public class Receiver{
 
     public void display_message(){
         System.out.println("El mensaje desencriptado es: " + getFinalMssgDcd());
+        System.exit(0);
     } 
 }
