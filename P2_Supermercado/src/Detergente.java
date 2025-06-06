@@ -49,7 +49,7 @@ public class Detergente extends Producto implements ILiquido, IDesuento{
 
     @Override
     public float getPrecioDescuento() {
-        return getPrecio()-(getPrecio()*getDescuento()/ 100f);
+        return getPrecio()-(getPrecio()*getDescuento());
     }
 
 
@@ -90,14 +90,11 @@ public class Detergente extends Producto implements ILiquido, IDesuento{
 
 
         public Builder descuento(float descuento){
-            if (descuento < 0) {
-                System.out.println("El descuento no puede ser negativo. Se usará el valor por defecto.");
+            if (descuento < 0 || descuento > 100) {
+                System.out.println("El descuento debe estar entre 0 y 100%. Se usará el valor por defecto.");
                 this.descuento = DESCUENTO_DEFAULT;
-            } else if (descuento < 100) {
-                System.out.println("El descuento no puede ser mayor del 100%. Se usará el valor por defecto.");
-                this.descuento = DESCUENTO_DEFAULT;
-            }else {
-                this.descuento = descuento/ 100f;
+            } else {
+                this.descuento = descuento / 100f;
             }
             return this;
         }
