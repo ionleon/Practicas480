@@ -1,0 +1,58 @@
+18/06/2025 16:32:34-Registro despegue: Militar - ID: 54321 (Prioridad: 2 )
+18/06/2025 16:32:41-Registro despegue: Pasajero - ID: 5621 (Prioridad: 3 )
+18/06/2025 16:32:46-Registro despegue: Carga - ID: 5421 (Prioridad: 4 )
+18/06/2025 16:32:48-Imprimiendo Estado Colas - Aterrizajes pendientes: 4 | Despegues pendientes: 3
+18/06/2025 16:32:53-INICIO: ATERRIZAJE: Emergencia - ID: 1234 (Prioridad: 1 )
+18/06/2025 16:32:56-FIN: ATERRIZAJE: Emergencia - ID: 1234 (Prioridad: 1 )
+18/06/2025 16:33:00-INICIO: ATERRIZAJE: Carga - ID: 4321 (Prioridad: 1 )
+18/06/2025 16:33:03-FIN: ATERRIZAJE: Carga - ID: 4321 (Prioridad: 1 )
+18/06/2025 16:33:06-INICIO: ATERRIZAJE: Militar - ID: 12345 (Prioridad: 2 )
+18/06/2025 16:33:09-FIN: ATERRIZAJE: Militar - ID: 12345 (Prioridad: 2 )
+18/06/2025 16:33:10-INICIO: ATERRIZAJE: Pasajero - ID: 123456 (Prioridad: 3 )
+18/06/2025 16:33:13-FIN: ATERRIZAJE: Pasajero - ID: 123456 (Prioridad: 3 )
+18/06/2025 16:33:17-INICIO: DESPEGUE: Militar - ID: 54321 (Prioridad: 2 )
+18/06/2025 16:33:19-FIN: DESPEGUE: Militar - ID: 54321 (Prioridad: 2 )
+18/06/2025 16:33:24-INICIO: DESPEGUE: Pasajero - ID: 5621 (Prioridad: 3 )
+18/06/2025 16:33:26-FIN: DESPEGUE: Pasajero - ID: 5621 (Prioridad: 3 )
+18/06/2025 16:33:30-INICIO: DESPEGUE: Carga - ID: 5421 (Prioridad: 4 )
+18/06/2025 16:33:32-FIN: DESPEGUE: Carga - ID: 5421 (Prioridad: 4 )
+18/06/2025 16:36:27-FALLO CRÍTICO: Militar - ID: 1323 (Prioridad: 2 )
+18/06/2025 16:36:42-FALLO CRÍTICO: Carga - ID: 234 (Prioridad: 4 )
+18/06/2025 16:37:04-Imprimiendo Estado Colas - Aterrizajes pendientes: 1 | Despegues pendientes: 0
+18/06/2025 16:37:13-Imprimiendo Estado Colas - Aterrizajes pendientes: 2 | Despegues pendientes: 0
+18/06/2025 16:37:29-Imprimiendo Estado Colas - Aterrizajes pendientes: 3 | Despegues pendientes: 0
+18/06/2025 16:38:13-INICIO: ATERRIZAJE: Emergencia - ID: 1 (Prioridad: 1 )
+18/06/2025 16:38:16-FIN: ATERRIZAJE: Emergencia - ID: 1 (Prioridad: 1 )
+18/06/2025 16:39:32-Registro despegue: Pasajero - ID: 123 (Prioridad: 3 )
+18/06/2025 16:39:40-Imprimiendo Estado Colas - Aterrizajes pendientes: 0 | Despegues pendientes: 1
+18/06/2025 16:39:48-Registro despegue: Carga - ID: 12343 (Prioridad: 4 )
+18/06/2025 16:40:00-Registro despegue: Militar - ID: 2 (Prioridad: 2 )
+18/06/2025 16:42:19-INICIO: ATERRIZAJE: Emergencia - ID: 123 (Prioridad: 1 )
+18/06/2025 16:42:22-FIN: ATERRIZAJE: Emergencia - ID: 123 (Prioridad: 1 )
+18/06/2025 16:42:22-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:29-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:32-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:35-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:35-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:36-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:37-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:37-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:38-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:39-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:39-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:40-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:40-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:41-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:41-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:42-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:43-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:43-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:44-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:44-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:44-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:45-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:45-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:46-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:46-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:46-FALLO PISTA: Retraso por mantenimiento.
+18/06/2025 16:42:46-FALLO PISTA: Retraso por mantenimiento.
